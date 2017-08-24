@@ -1,0 +1,16 @@
+
+Solving Air Cargo Problem 1 using breadth_first_tree_search...
+
+Expansions   Goal Tests   New Nodes
+   1458        1459        5960   
+
+Plan length: 6  Time elapsed in seconds: 2.290539982030168
+Load(C2, P2, JFK)
+Load(C1, P1, SFO)
+Fly(P2, JFK, SFO)
+Unload(C2, P2, SFO)
+Fly(P1, SFO, JFK)
+Unload(C1, P1, JFK)
+
+
+Solving Air Cargo Problem 2 using breadth_first_tree_search...

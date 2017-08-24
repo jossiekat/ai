@@ -1,0 +1,74 @@
+
+Solving Air Cargo Problem 1 using greedy_best_first_graph_search with h_1...
+
+Expansions   Goal Tests   New Nodes
+    7           9           28    
+
+Plan length: 6  Time elapsed in seconds: 0.00924948719330132
+Load(C1, P1, SFO)
+Load(C2, P2, JFK)
+Fly(P1, SFO, JFK)
+Fly(P2, JFK, SFO)
+Unload(C1, P1, JFK)
+Unload(C2, P2, SFO)
+
+
+Solving Air Cargo Problem 2 using greedy_best_first_graph_search with h_1...
+
+Expansions   Goal Tests   New Nodes
+   1024        1026        7279   
+
+Plan length: 22  Time elapsed in seconds: 3.222633379045874
+Load(C1, P1, SFO)
+Load(C2, P2, JFK)
+Load(C3, P3, ATL)
+Fly(P1, SFO, ATL)
+Fly(P2, JFK, ATL)
+Unload(C1, P1, ATL)
+Load(C1, P3, ATL)
+Unload(C2, P2, ATL)
+Load(C2, P3, ATL)
+Unload(C3, P3, ATL)
+Load(C3, P2, ATL)
+Unload(C2, P3, ATL)
+Load(C2, P2, ATL)
+Unload(C1, P3, ATL)
+Fly(P3, ATL, JFK)
+Load(C1, P1, ATL)
+Fly(P1, ATL, JFK)
+Unload(C1, P1, JFK)
+Fly(P1, JFK, ATL)
+Fly(P2, ATL, SFO)
+Unload(C3, P2, SFO)
+Unload(C2, P2, SFO)
+
+
+Solving Air Cargo Problem 3 using greedy_best_first_graph_search with h_1...
+
+Expansions   Goal Tests   New Nodes
+   5560        5562       49015   
+
+Plan length: 22  Time elapsed in seconds: 23.08435547305271
+Load(C1, P1, SFO)
+Load(C2, P2, JFK)
+Fly(P1, SFO, ORD)
+Load(C4, P1, ORD)
+Fly(P2, JFK, ATL)
+Load(C3, P2, ATL)
+Fly(P2, ATL, ORD)
+Fly(P1, ORD, ATL)
+Unload(C4, P1, ATL)
+Fly(P1, ATL, ORD)
+Fly(P2, ORD, ATL)
+Load(C4, P2, ATL)
+Fly(P2, ATL, ORD)
+Unload(C3, P2, ORD)
+Load(C3, P1, ORD)
+Fly(P1, ORD, JFK)
+Unload(C3, P1, JFK)
+Unload(C1, P1, JFK)
+Fly(P1, JFK, ORD)
+Fly(P2, ORD, SFO)
+Unload(C4, P2, SFO)
+Unload(C2, P2, SFO)
+
